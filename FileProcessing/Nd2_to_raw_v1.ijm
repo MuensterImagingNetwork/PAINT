@@ -1,5 +1,6 @@
 /*
- * Macro template to process multiple images in a folder
+ * Batch-conversion from .nd2 to raw using the Raw-Yaml Exporter from jungmannlab (https://github.com/jungmannlab/imagej-raw-yaml-export)
+ * Relatively fast due to virtual loading of .nd2 file in batch-mode
  */
 
 #@ File (label = "Input directory", style = "directory") input
